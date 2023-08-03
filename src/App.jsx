@@ -1,4 +1,5 @@
 import React from "react";
+import Stripy from "./Stripy.jsx";
 import { GoogleLogin } from "@react-oauth/google";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <h2>React Google Login</h2>
       <br />
       <br />
+      <Stripy />
       <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
     </div>
   );
